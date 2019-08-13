@@ -25,10 +25,11 @@ I originally wanted to use my thesis data to build this pipeline. However, a war
 
 ### Tools/Language used
 
-Nilearn
-Python
+* Nilearn
+* Python
 
 ### Machine learning model architecture
+* Features shape for FNC = 155 x 2016
 
 ### Learning Aims
 
