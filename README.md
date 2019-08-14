@@ -10,8 +10,8 @@ I originally wanted to use my thesis data to build this pipeline. However, a war
 
 1. Script and perform a machine learning model to predict age using rs-fMRI FNC
 2. Script and perform a machine learning model to predict age using rs-fMRI power spectra
-3. Script and perform a machine learning model to predict age using rs-fMRI statistical maps
-4. Script and perform a machine learning model to predict age using rs-fMRI FNC, power spectra and statistical maps
+3. Script and perform a machine learning model to predict age using rs-fMRI neural activity
+4. Script and perform a machine learning model to predict age using rs-fMRI FNC, power spectra and neural activity
 5. Compare models 1, 2, 3 and 4 to see which one is the most predictive of age
 
 
@@ -41,14 +41,14 @@ I originally wanted to use my thesis data to build this pipeline. However, a war
 
 ### To-Do
 
-- [ ]  Read Nilearn documentation
-- [ ]  Data exploration and visualization
-- [ ]  Write script to reproduce age prediction machine learning tutorial
+- [X]  Read Nilearn documentation
+- [X]  Data exploration and visualization
+- [ ]  Re-run script age prediction machine learning tutorial using FNC
 - [ ]  Read documentation on how to model spatial maps in Nilearn
 - [ ]  Read documentation on how to model power spectra in Nilearn
-- [ ]  Write script of machine learning algorithm using spatial maps to predict age
-- [ ]  Write script of machine learning algorithm using power spectra to predict age
-- [ ]  Write script of machine learning algorithm combining FNC, spatial maps and power spectra to predict age
+- [ ]  Modify ML tutorial script to predict age using neural activity
+- [ ]  Modify ML tutorial script to predict age using power spectra
+- [ ]  Modify ML tutorial script to predict age using a combination of FNC, neural activity and power spectra
 - [ ]  Read on techniques to statistically compare accuracy of machine learning algorithm
 - [ ]  Statistically compare the performance of the 4 algorithms built
 
