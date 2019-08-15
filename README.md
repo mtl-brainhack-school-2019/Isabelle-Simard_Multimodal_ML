@@ -2,9 +2,9 @@
 
 ## Project repository
 
-### Is combining different metrics of rs-fMRI more predictive of age than using only FNC?
+### Is combining different metrics of rs-fMRI more predictive of age than using only one metric?
 
-I originally wanted to use my thesis data to build this pipeline. However, a war with ethics is keeping me away from it at the moment. My original idea is to asses if using multiple metrics of rs-fMRI (i.e. functional connectivity (FNC), power spectra and statistical maps) is more predictive of recidivism in offenders than using only data from one metric. Hence, in the absence of my data of interest, I am going to build on the machine learning exercise that we did in class to see if combining FNC, power spectra and statistical maps of rs-fMRI is more predictive of age than only using FNC.
+I originally wanted to use my thesis data to build this pipeline. However, a war with ethics is keeping me away from my data at the moment. My original idea is to asses if using multiple metrics of rs-fMRI (i.e. functional connectivity (FNC), power spectra and statistical maps) is more predictive of recidivism in offenders than using only data from one metric. Hence, in the absence of my data of interest, I am going to build on the machine learning exercise that we did in class on the first week of BrainHack School to see if combining FNC, power spectra and statistical maps of rs-fMRI is more predictive of age than only using FNC.
 
 ### Project Aims
 
@@ -23,11 +23,13 @@ I originally wanted to use my thesis data to build this pipeline. However, a war
 * 155 participants watched a Disney movie passively (resting-state) while being in the scanner
 
 
+
 ### Tools/Language used
 
 * Nilearn
 * Python
 * Jupyter notebook
+* Nitime
 
 ### Machine learning model architecture
 * Features shape for FNC = 155 x 2016
@@ -38,27 +40,30 @@ I originally wanted to use my thesis data to build this pipeline. However, a war
 1. Learn how to use Nilearn
 2. Reproduce age prediction Nilearn machine tutorial using FNC as predictor
 3. Learn how to script other metrics of resting-state fMRI (i.e. power spectra and spatial maps) in Nilearn
-4. Be able to use power spectra and spatial maps as marching learning predictors in Nilearn
+4. Be able to use power spectra and spatial maps as machine learning predictors in Nilearn
 5. Be able to script a machine learning algorithm that uses 3 different metrics of resting-state (i.e. FNC, power spectra and machine learning) as a predictor of a variable
+6. Learn how to statistically compare the performance of multiple machine learning models
 
 ### To-Do
 
 - [X]  Read Nilearn documentation
 - [X]  Data exploration and visualization
-- [ ]  Re-run script age prediction machine learning tutorial using FNC
+- [X]  Re-run script age prediction machine learning tutorial using FNC
 - [X]  Read documentation on how to model spatial maps in Nilearn
-- [ ]  Read documentation on how to model power spectra in Nilearn
-- [ ]  Modify ML tutorial script to predict age using neural activity
-- [ ]  Modify ML tutorial script to predict age using power spectra
-- [ ]  Modify ML tutorial script to predict age using a combination of FNC, neural activity and power spectra
+- [X]  Read documentation on how to model power spectra in Python
+- [X]  Modify ML tutorial script to train model to predict age using neural activity
+- [ ]  Modify ML tutorial script to train model to predict age using power spectra
+- [ ]  Modify ML tutorial script to train model to predict age using a combination of FNC, neural activity and power spectra
+- [ ]  Run all models on test data
 - [ ]  Read on techniques to statistically compare accuracy of machine learning algorithm
-- [ ]  Statistically compare the performance of the 4 algorithms built
+- [ ]  Write and run script of statistical comparison of models
+- [ ]  Statistically compare the performance of the 4 models
 
 
 ### Current issues
 
+* Let me know if you have any suggestions regarding how to statistically compare ML models
 ### Deliverables for Brainhack School 2019
-* 4 Jupyter notebooks with the script and analysis results for the 4 regression machine learning models
+* 4 Jupyter notebooks with the script and analysis results for the 4 regression machine learning models (could be integrated in a Jupyter book)
 
-### Further scope
 
