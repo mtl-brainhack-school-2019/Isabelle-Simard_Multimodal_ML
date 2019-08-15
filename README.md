@@ -49,6 +49,8 @@ I originally wanted to use my thesis data to build this pipeline. However, a war
 - [X]  Re-run script age prediction machine learning tutorial using FNC
 - [X]  Read documentation on how to model spatial maps in Nilearn
 - [X]  Read documentation on how to model power spectra in Python
+- [ ]  Select cross-validation method
+- [ ]  Select dimensionality reduction method
 - [X]  Modify ML tutorial script to train model to predict age using neural activity
 - [ ]  Modify ML tutorial script to train model to predict age using power spectra
 - [ ]  Modify ML tutorial script to train model to predict age using a combination of FNC, neural activity and power spectra
@@ -60,7 +62,7 @@ I originally wanted to use my thesis data to build this pipeline. However, a war
 
 ### Current issues
 
-* Let me know if you have any suggestions regarding how to statistically compare ML models
+* Let me know if you have any suggestions regarding how to statistically compare ML models. Currently looking to use this [Scikit script](https://machinelearningmastery.com/compare-machine-learning-algorithms-python-scikit-learn/).
 ### Deliverables for Brainhack School 2019
 * 4 Jupyter notebooks with the script and analysis results for the 4 regression machine learning models (could be integrated in a Jupyter book)
 
