@@ -1,5 +1,3 @@
-# Isabelle-Simard
-
 ## Project repository
 
 ### Is combining different metrics of rs-fMRI more predictive of age than using only one metric?
@@ -67,3 +65,4 @@ I originally wanted to use my thesis data to build this pipeline. However, a war
 * 4 Jupyter notebooks with the script and analysis results for the 4 regression machine learning models (could be integrated in a Jupyter book)
 
 
+![Alt Text](https://media.giphy.com/media/4TtTVTmBoXp8txRU0C/giphy.gif)
