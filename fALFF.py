@@ -1,3 +1,5 @@
+ time_series = masker.fit_transform(sub, confounds=confounds[i])
+
 #Clean data using bandpass filtering Butterworth from Nilearn
 import nilearn
 time_series_cleaned = nilearn.signal.clean(time_series, sessions=None, detrend=True, standardize=None, confounds=None, low_pass=0.25, high_pass=0.01, t_r=2.0, ensure_finite=True)
