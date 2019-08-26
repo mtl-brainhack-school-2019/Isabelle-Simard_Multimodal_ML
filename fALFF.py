@@ -1,4 +1,4 @@
- time_series = masker.fit_transform(sub, confounds=confounds[i])
+time_series = masker.fit_transform(sub, confounds=confounds[i])
 
 #Clean data using bandpass filtering Butterworth from Nilearn
 import nilearn
