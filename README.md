@@ -11,8 +11,9 @@ This project aims to compare the capacity to predict age of different metrics of
 
 My goal in this project was to asses if using multiple metrics of rs-fMRI (i.e. FNC, timeseries and fALFF) is more predictive of age than using only data from one metric. The overall objectives of this project were for me to get familiar with programming machine learning models, how to model different metrics of resting-state activity and improve my Python coding skills. I also wanted to learn how to optimize the parameters of a training machine learning model. For this project, I used a Support Vector Regressor algorithm. Details about the conceptualization of this project can be found in this video:
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=u7wtJ5R34xY" target="_blank"><img src="http://img.youtube.com/vi/Yu7wtJ5R34xY/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/u7wtJ5R34xY/0.jpg)](http://www.youtube.com/watch?v=u7wtJ5R34xY)
 
 #### Project Aims
 
